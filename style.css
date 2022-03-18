@@ -1,0 +1,40 @@
+:root {
+    --soft-red: hsl(7, 99%, 70%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-desaturated-cyan:hsl(167, 40%, 24%);
+    --dark-blue:hsl(198, 62%, 26%);
+    --dark-moderate-cyan:hsl(168, 34%, 41%);
+    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+#hero-section {
+    background-image: url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 70vh;
+    color: white;
+}
+s
+header {
+    display: block;
+}
+
+#nav-bar {
+    display:flex;
+    justify-content: space-between;
+    padding: 35px;
+}
