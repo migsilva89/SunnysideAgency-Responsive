@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
 :root {
     --soft-red: hsl(7, 99%, 70%);
     --very-dark-grayish-blue: hsl(213, 9%, 39%);
@@ -11,6 +12,8 @@
     --white: hsl(0, 0%, 100%);
 }
 
+
+
 body, html {
     height: 100%;
     width: 100%;
@@ -20,15 +23,24 @@ body, html {
     max-width: 1440px;
 }
 
+
 #hero-section {
     background-image: url(../images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    min-height: 70vh;
+    min-height: 50vh;
     color: white;
 }
-s
+
+#title {
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size:3rem;
+    letter-spacing: 5px;
+    padding-top:20px;
+}
+
 header {
     display: block;
 }
@@ -37,4 +49,36 @@ header {
     display:flex;
     justify-content: space-between;
     padding: 35px;
+    align-items: center;
+}
+
+#arrow {
+    display: block;
+    margin:auto;
+    width: 25px;
+    padding-top:30px;
+}
+
+#logo {
+    width:150px;
+}
+
+#button {
+    background:none;
+    border:none;
+    color:white;
+    padding:15px;
+    font-family: 'Barlow', serif;
+    font-weight: lighter;
+}
+
+#contact-button {
+    background:white;
+    border:none;
+    border-radius: 25px;
+    color:black;
+    padding:13px 25px 13px 25px;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    font-size:12px;
 }
