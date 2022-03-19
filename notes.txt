@@ -22,6 +22,8 @@
         background-position: center;
         /* background-repeat: no-repeat; */
         background-size: cover;
+    -still need to undestand about the underline on "LEAN MORE" 
+    -P font weight (NEED TO double check)
  
 
 
