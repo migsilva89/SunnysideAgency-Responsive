@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
 :root {
     --soft-red: hsl(7, 99%, 70%);
     --very-dark-grayish-blue: hsl(213, 9%, 39%);
@@ -18,9 +19,10 @@ body, html {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
+/* HEADER SECTION */
 #hero-section {
     background-image: url(../images/desktop/image-header.jpg);
     background-repeat: no-repeat;
@@ -80,6 +82,7 @@ header {
     font-size:12px;
 }
 
+/* 6-CARDS SECTION */
 #cards-container {
     display:grid;
     grid-template-columns: 50% 50% ;
@@ -89,4 +92,60 @@ header {
 .card {
     border:solid black;
     height:400px;
+}
+
+.egg-img {
+    background-image: url("./images/desktop/image-transform.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.cup-img {
+    background-image: url("./images/desktop/image-stand-out.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.cherry-img {
+    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.orange-img {
+    background-image: url("./images/desktop/image-photography.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+#card-title {
+    font-family: 'Fraunces', serif;
+    text-align: left;
+}
+
+.p-text {
+    text-align: left;
+    font-family: "Barlow", serif;
+    font-size: 10px;
+    color: var( --dark-grayish-blue);
+    letter-spacing: 1px;
+}
+
+.learn-more {
+    font-family: 'Fraunces', serif;
+    color:black;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: 4px solid rgba(255, 217, 0, 0.315);
+    display: inline-block;
+}
+
+.pad-cont {
+    margin:80px;
 }

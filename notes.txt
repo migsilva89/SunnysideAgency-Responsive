@@ -1,7 +1,53 @@
-1 - hero section (desktop first)
+1 - hero section with logo and navbar (desktop first)
+    challenge was to fit the image with the correct size, solution was::
+        bg-img {  
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            min-height: 50vh;
+        }
+    - also add difficulty adding the font family (I was not adding the @import on the top of the CSS file)
+
 2 - 6card section ( desktop first TRY TO ALREADY MAKE MOBILE)
+    was hard to fit the grid inside the container without moving it with content inside.
+    Solutionw was::
+        #cards-container {
+            display:grid;
+            grid-template-columns: 50% 50% ;
+            align-items: auto;
+        }
+
+3 - 6card section ( add images and formating p's)
+    fit img inside the grid with::
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
  
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page text content:: 
+
  About
   Services
   Projects
