@@ -19,8 +19,9 @@ body, html {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1000px;
+    max-width: 1100px;
 }
+
 
 /* HEADER SECTION */
 #hero-section {
@@ -81,6 +82,7 @@ header {
     text-transform: uppercase;
     font-size:12px;
 }
+
 
 /* 6-CARDS SECTION */
 #cards-container {
@@ -173,7 +175,7 @@ header {
 }
 
 .marg-cont {
-    margin:120px;
+    margin:100px;
     margin-top:300px;
 }
 
@@ -207,7 +209,7 @@ header {
     font-size: 12px;
     color: var( --dark-grayish-blue);
     line-height: 15pt;
-    margin:20px;
+    padding:5px;
     margin-top:40px;
 }
 
@@ -229,6 +231,39 @@ header {
 }
 
 
+/* 4CARDS SECTION */
+.fourcards {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    align-items: auto;
+    padding-bottom:50px;
+}
+
+.card4 {
+    height:400px;
+}
+
+.milk-img {
+    background-image: url("./images/desktop/image-gallery-milkbottles.jpg")
+}
+
+.or-img {
+    background-image: url("./images/desktop/image-gallery-orange.jpg")
+}
+
+.bani-img {
+    background-image: url("./images/desktop/image-gallery-cone.jpg")
+}
+
+.sugar-img {
+    background-image: url("./images/desktop/image-gallery-sugarcubes.jpg")
+}
+
+.bg-size {
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
 
 
 
@@ -241,5 +276,28 @@ header {
         display:grid;
         grid-template-columns:auto;
         align-items: auto;
+    }
+
+    .testi-flex-container {
+        display:grid;
+        text-align: center;
+        margin-top:50px;
+    }
+
+    .testi-text {
+        margin:0px;
+    }
+
+    .testi-text {
+        margin-top:10px;
+    }
+
+    .work-position {
+        margin-bottom:50px;
+        margin-top:0px;
+    }
+
+    .avatar-name {
+        margin-top:25px;
     }
 }

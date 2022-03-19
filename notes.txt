@@ -28,6 +28,8 @@
 
 4 - Testimonials section 
     - Flex box centered with a title and 3 sections 
+    - testimonials section responsive 
+    - PROBLEM to fix mobile version (brave is crashing everytime, going back to FIREFOX??)
  
 
 
@@ -41,6 +43,7 @@ TO DO LIST:
 - fix font weight or style from tittle an ps 6card sections
 - fix responsiveness header and 6card section tittle (padding amrging etc..)
 - make hamburger for nav bar responsiveness
+- solve testi title margin responsive 
 
 
 
