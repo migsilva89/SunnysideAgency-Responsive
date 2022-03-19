@@ -24,6 +24,10 @@
         background-size: cover;
     -still need to undestand about the underline on "LEAN MORE" 
     -P font weight (NEED TO double check)
+    - Make responsiveness (2nd)
+
+4 - Testimonials section 
+    - Flex box centered with a title and 3 sections 
  
 
 
@@ -33,6 +37,10 @@
 
 
 
+TO DO LIST:
+- fix font weight or style from tittle an ps 6card sections
+- fix responsiveness header and 6card section tittle (padding amrging etc..)
+- make hamburger for nav bar responsiveness
 
 
 

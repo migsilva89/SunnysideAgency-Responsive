@@ -176,3 +176,70 @@ header {
     margin:120px;
     margin-top:300px;
 }
+
+
+/* TESTIMONIALS SECTION  */
+#testimonials-container {
+    margin: 100px;
+}
+
+.testi-title {
+    text-align: center;
+    font-size:13px;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 5px;
+    color: var( --dark-grayish-blue);
+}
+
+.testi-flex-container {
+    display:flex;
+    text-align: center;
+    margin-top:70px;
+}
+
+.avatar {
+    border-radius:100px;
+    width:50px;
+}
+
+.testi-text {
+    font-family: "Barlow", serif;
+    font-size: 12px;
+    color: var( --dark-grayish-blue);
+    line-height: 15pt;
+    margin:20px;
+    margin-top:40px;
+}
+
+.avatar-name {
+    font-size:13px;
+    font-family: 'Fraunces', serif;
+    color: var( black);
+    margin-top:50px;
+    margin-bottom:5px;
+}
+
+.work-position {
+    font-family: "Barlow", serif;
+    font-size: 12px;
+    color: var( --grayish-blue);
+    line-height: 15pt;
+    margin-bottom:100px;
+    margin-top:0px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    
+    #cards-container {
+        display:grid;
+        grid-template-columns:auto;
+        align-items: auto;
+    }
+}
