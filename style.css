@@ -12,17 +12,14 @@
     --white: hsl(0, 0%, 100%);
 }
 
-
-
 body, html {
     height: 100%;
     width: 100%;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1440px;
+    max-width: 1200px;
 }
-
 
 #hero-section {
     background-image: url(../images/desktop/image-header.jpg);
@@ -81,4 +78,15 @@ header {
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
     font-size:12px;
+}
+
+#cards-container {
+    display:grid;
+    grid-template-columns: 50% 50% ;
+    align-items: auto;
+}
+
+.card {
+    border:solid black;
+    height:400px;
 }
