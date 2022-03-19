@@ -4,8 +4,9 @@
     --soft-red: hsl(7, 99%, 70%);
     --very-dark-grayish-blue: hsl(213, 9%, 39%);
     --dark-desaturated-cyan:hsl(167, 40%, 24%);
+    --dark-desaturated-cyana:hsl(167, 39%, 33%);
     --dark-blue:hsl(198, 62%, 26%);
-    --dark-moderate-cyan:hsl(168, 34%, 41%);
+    --dark-moderate-cyan:hsl(169, 39%, 67%);
     --very-dark-desaturated-blue: hsl(212, 27%, 19%);
     --very-dark-grayish-blue: hsl(213, 9%, 39%);
     --dark-grayish-blue: hsl(232, 10%, 55%);
@@ -20,6 +21,7 @@ body, html {
     padding: 0;
     box-sizing: border-box;
     max-width: 1100px;
+    background: var(--grayish-blue);
 }
 
 
@@ -89,6 +91,7 @@ header {
     display:grid;
     grid-template-columns: 50% 50% ;
     align-items: auto;
+    background-color:white;
 }
 
 .card {
@@ -182,7 +185,10 @@ header {
 
 /* TESTIMONIALS SECTION  */
 #testimonials-container {
-    margin: 100px;
+    padding-top: 100px;
+    padding-left:100px;
+    padding-right:100px;
+    background: white;
 }
 
 .testi-title {
@@ -236,11 +242,10 @@ header {
     display:grid;
     grid-template-columns: 25% 25% 25% 25% ;
     align-items: auto;
-    padding-bottom:50px;
 }
 
 .card4 {
-    height:400px;
+    height:300px;
 }
 
 .milk-img {
@@ -266,7 +271,37 @@ header {
 }
 
 
+/* FOOTER SECTION */
+#fifth-container {
+    background-color:var(--dark-moderate-cyan);
+    color: var(--dark-desaturated-cyan);
+    text-align:center;
+}
 
+.footer-logo {
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.fot-a {
+    margin:10px;
+    text-decoration: none;
+    color: var(--dark-desaturated-cyana);
+    font-family: "Barlow", serif;
+    font-size:12px;
+}
+
+.social-container {
+    display:flex;
+    justify-content: center;
+    margin:40px;
+    padding-bottom: 40px;
+}
+
+.fot-icon {
+    margin:10px;
+    width:15px;
+}
 
 
 
@@ -299,5 +334,16 @@ header {
 
     .avatar-name {
         margin-top:25px;
+    }
+
+    .fourcards {
+        display:grid;
+        grid-template-columns: 50% 50% ;
+        align-items: auto;
+        
+    }
+
+    .card4 {
+        height:250px;
     }
 }

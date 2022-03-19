@@ -31,8 +31,14 @@
     - testimonials section responsive 
     - PROBLEM to fix mobile version (brave is crashing everytime, going back to FIREFOX??)
  
+5 - 4card section 
+    - 4imgafes grid responsive done
+    - had to change the width of container in order to match de design 
 
-
+6 - Footer Section::
+    - logo
+    - 3xa 
+    - 4x social icons 
 
 
 
@@ -44,7 +50,8 @@ TO DO LIST:
 - fix responsiveness header and 6card section tittle (padding amrging etc..)
 - make hamburger for nav bar responsiveness
 - solve testi title margin responsive 
-
+- fix logo color footer
+- change button to <a> from nav bar 
 
 
 
