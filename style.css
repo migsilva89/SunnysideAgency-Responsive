@@ -303,6 +303,54 @@ header {
     width:15px;
 }
 
+/* MOBILE MENU SECTION */
+
+#burger {
+    display:none;
+}
+
+.mobile-menu-container {
+    width: 60%;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: white;
+    text-align:center;
+}
+
+#button-mobile {
+    background:none;
+    border:none;
+    color:white;
+    padding:18px;
+    font-family: 'Barlow', serif;
+    font-weight: lighter;
+    color: var( --dark-grayish-blue);
+    
+}
+
+#contact-button-mobile {
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    background:rgb(255, 238, 0);
+    border-radius: 25px;
+    font-size:15px;
+    color:black;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding:15px;
+    
+}
+
+.hidden {
+    display:none;
+}
+
+
 
 
 @media screen and (max-width:800px){
@@ -345,5 +393,13 @@ header {
 
     .card4 {
         height:250px;
+    }
+
+    #nav-bar-text {
+        display:none;
+    }
+
+    #burger {
+        display:flex;
     }
 }

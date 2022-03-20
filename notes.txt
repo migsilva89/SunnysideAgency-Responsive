@@ -40,6 +40,11 @@
     - 3xa 
     - 4x social icons 
 
+7 - TOOGLE + HOVER 
+    - make toogle menu hamburger button 
+        {couldnt figure it out how to add transation to the toogle so then I was able to solve it adding.... }
+    - make hover effects
+
 
 
 
@@ -50,8 +55,9 @@ TO DO LIST:
 - fix responsiveness header and 6card section tittle (padding amrging etc..)
 - make hamburger for nav bar responsiveness
 - solve testi title margin responsive 
-- fix logo color footer
 - change button to <a> from nav bar 
+- make de mobile menu disapear when screen gets bigger
+- add triangle to background of mobile menu card  
 
 
 
