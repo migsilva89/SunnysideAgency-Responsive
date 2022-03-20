@@ -44,7 +44,13 @@
     - make toogle menu hamburger button 
         {couldnt figure it out how to add transation to the toogle so then I was able to solve it adding.... }
     - make hover effects
-
+    - it was hard to make the menu mobile close when window is adjusted (onresize()), i solve it with::
+        window.onresize = function() {
+            if (this.window.innerWidth >= 800){
+            var menu = document.getElementById("menu")
+            menu.classList.add("hidden")  
+            }
+        };
 
 
 
