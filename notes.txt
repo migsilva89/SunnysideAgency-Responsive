@@ -41,9 +41,8 @@
     - 4x social icons 
 
 7 - TOOGLE + HOVER 
-    - make toogle menu hamburger button 
+    - made toogle menu hamburger button 
         {couldnt figure it out how to add transation to the toogle so then I was able to solve it adding.... }
-    - make hover effects
     - it was hard to make the menu mobile close when window is adjusted (onresize()), i solve it with::
         window.onresize = function() {
             if (this.window.innerWidth >= 800){
@@ -52,75 +51,15 @@
             }
         };
 
-
+8 - Make Hover status 
+  - Make triangle to mobile menu
+  - Nav bar and mobile menu links 
 
 
 
 TO DO LIST:
-- fix font weight or style from tittle an ps 6card sections
-- fix responsiveness header and 6card section tittle (padding amrging etc..)
-- make hamburger for nav bar responsiveness
-- solve testi title margin responsive 
-- change button to <a> from nav bar 
-- make de mobile menu disapear when screen gets bigger
+- fix responsiveness header and 6card section tittle (padding amrging etc..) TEST
 - add triangle to background of mobile menu card  
+- missing social svg img's hover
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Page text content:: 
-
- About
-  Services
-  Projects
-  Contact
-
-  We are creatives
-
-  Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact

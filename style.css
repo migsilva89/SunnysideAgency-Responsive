@@ -72,6 +72,7 @@ header {
     padding:15px;
     font-family: 'Barlow', serif;
     font-weight: lighter;
+    text-decoration: none;
 }
 
 #contact-button {
@@ -83,6 +84,7 @@ header {
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
     font-size:12px;
+    text-decoration: none;
 }
 
 
@@ -149,9 +151,12 @@ header {
     font-size: 10px;
     letter-spacing: 1px;
     text-decoration: none;
-    border-bottom: 4px solid rgba(255, 217, 0, 0.315);
     display: inline-block;
     margin-top:25px;
+}
+
+.learn-more:hover {
+    border-bottom: 4px solid rgba(255, 217, 0, 0.315);
 }
 
 .pad-cont {
@@ -291,6 +296,10 @@ header {
     font-size:12px;
 }
 
+.fot-a:hover {
+    color:white;
+}
+
 .social-container {
     display:flex;
     justify-content: center;
@@ -300,8 +309,15 @@ header {
 
 .fot-icon {
     margin:10px;
-    width:15px;
+    width:20px;
 }
+
+.fot-icon:hover {
+    color:white;
+}
+
+
+
 
 /* MOBILE MENU SECTION */
 
@@ -349,8 +365,6 @@ header {
 .hidden {
     visibility:hidden;
 }
-
-
 
 
 @media screen and (max-width:820px){
