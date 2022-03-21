@@ -24,7 +24,12 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - JavaScript
 
 ### What I learned
-- Not finished yet;
-- 
--
-...
+
+- CSS background Size
+- CSS grids
+- Javascript Toogle
+
+Preview: https://front-end-mentor-sunnyside-agency-git-master-migsilva89.vercel.app/
+
+Thank you all.
+Miguel Silva 
