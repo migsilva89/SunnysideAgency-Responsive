@@ -51,15 +51,13 @@
             }
         };
 
-8 - Make Hover status 
-  - Make triangle to mobile menu
-  - Nav bar and mobile menu links 
+8 - Make Hover status (was hard to find how to add transparency to the background of the navbar button, solve it with background-color:hsl(0, 0%, 100%, 0.1); (last value means the transparency))
+  - Make triangle (done)
 
 
 
 TO DO LIST:
 - fix responsiveness header and 6card section tittle (padding amrging etc..) TEST
-- add triangle to background of mobile menu card  
 - missing social svg img's hover
 
 

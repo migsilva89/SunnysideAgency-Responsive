@@ -87,6 +87,12 @@ header {
     text-decoration: none;
 }
 
+#contact-button:hover {
+    color:white;
+    border:solid white;
+    background-color:hsl(0, 0%, 100%, 0.2);
+}
+
 
 /* 6-CARDS SECTION */
 #cards-container {
@@ -344,6 +350,7 @@ header {
     font-family: 'Barlow', serif;
     font-weight: lighter;
     color: var( --dark-grayish-blue);
+    cursor: pointer;
     
 }
 
@@ -359,8 +366,21 @@ header {
     margin-top:10px;
     margin-bottom:20px;
     padding:15px;
+    cursor: pointer;
     
 }
+
+.triangle {
+    content: "";
+    height: 0;
+    width: 0;
+    border-bottom: 25px solid #fff;
+    border-left: 25px solid transparent;
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
+
 
 .hidden {
     visibility:hidden;
