@@ -28,6 +28,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - CSS background Size
 - CSS grids
 - Javascript Toggle
+- CSS Filters
 
 Preview: https://front-end-mentor-sunnyside-agency-git-master-migsilva89.vercel.app/
 

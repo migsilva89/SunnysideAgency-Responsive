@@ -57,7 +57,9 @@
 
 
 TO DO LIST:
-- fix responsiveness header and 6card section tittle (padding amrging etc..) TEST
-- missing social svg img's hover
-
+- fix text sizing (all containers) (check screenshot on FRONTENDMENTOR)
+- header logo size 
+- nav bar size 
+- fix testimonals padding or marging for mobile version 
+- check all containers mobile version 
 
