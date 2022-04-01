@@ -154,6 +154,7 @@ header {
     font-size: 15px;
     color: var( --dark-grayish-blue);
     line-height: 17pt;
+    font-weight: bold;
 }
 
 .pad-cont {
@@ -170,6 +171,7 @@ header {
     text-decoration: none;
     display: inline-block;
     margin-top:25px;
+    font-weight: bold
 }
 
 .learn-more:hover {
