@@ -10,7 +10,7 @@
     --very-dark-desaturated-blue: hsl(212, 27%, 19%);
     --very-dark-grayish-blue: hsl(213, 9%, 39%);
     --dark-grayish-blue: hsl(232, 10%, 55%);
-    --grayish-blue: hsl(60, 38%, 94%);
+    --grayish-blue: rgb(247, 242, 242);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -20,7 +20,6 @@ body, html {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1440px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -41,6 +40,7 @@ body, html {
     font-size:3.4rem;
     letter-spacing: 6px;
     padding-top:50px;
+    font-weight: bold;
 }
 
 header {
@@ -84,7 +84,7 @@ header {
     padding:15px 25px 15px 25px;
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
-    font-size:12px;
+    font-size:15px;
     text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ header {
 
 .card-title {
     font-family: 'Fraunces', serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
 }
 
